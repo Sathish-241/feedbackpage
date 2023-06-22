@@ -1,0 +1,62 @@
+/* Write your CSS code here. */
+.app-container {
+  height: 100vh;
+  background-image: linear-gradient(to left, #ffc0bb, #ffeeee);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container {
+  height: 500px;
+  width: 60%;
+  background-color: white;
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  padding: 100px;
+  text-align: center;
+  font-family: Roboto;
+  border-radius: 12px;
+}
+.emojis-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+.img {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+}
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  border: none;
+  background-color: white;
+}
+.btn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.love-emoji {
+  height: 70px;
+  width: 70px;
+}
+.feedback-container {
+  height: 300px;
+  width: 40%;
+  background-color: white;
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  padding: 50px;
+  text-align: center;
+  font-family: Roboto;
+  border-radius: 12px;
+}
